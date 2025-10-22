@@ -5,7 +5,9 @@ import Home from '.';
 
 describe('Test Home', () => {
   afterEach(() => {
+
     jest.restoreAllMocks();
+  
   });
 
   test('Test Render', async () => {
